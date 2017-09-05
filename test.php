@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: itzik
- * Date: 05/09/2017
- * Time: 09:50
+ * Created by messageapi.
  */
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

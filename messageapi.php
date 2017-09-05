@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: itzik
- * Date: 05/09/2017
- * Time: 11:06
+ * Created by messageapi.
  */
 
 namespace messageapi;
