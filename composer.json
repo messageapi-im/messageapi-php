@@ -1,5 +1,5 @@
 {
-  "name": "messageapi-php",
+  "name": "messageapi_php",
   "description": "Send and receive messages from any chat app, using one API",
   "version": "0.0.1",
   "type": "library",
@@ -16,7 +16,7 @@
   ],
   "support": {
     "email": "support@messageapi.im",
-    "source": "https://github.com/eitzikgr/messageapi-php",
+    "source": "https://github.com/messageapi-im/messageapi-php",
     "docs": "http://docs.messageapi.im/"
   },
 
