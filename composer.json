@@ -1,0 +1,37 @@
+{
+  "name": "messageapi-php",
+  "description": "Send and receive messages from any chat app, using one API",
+  "version": "0.0.1",
+  "type": "library",
+  "keywords": ["messageapi", "messageapi.im", "messageapi-php"],
+  "homepage": "http://messageapi.im",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Itzik",
+      "email": "itzik@messageapi.im",
+      "homepage": "http://messageapi.im",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@messageapi.im",
+    "source": "https://github.com/eitzikgr/messageapi-php",
+    "docs": "http://docs.messageapi.im/"
+  },
+
+  "require": {
+    "php": ">=5.3.2"
+
+
+  },
+  "require-dev": {
+
+  },
+  "scripts": {
+
+  },
+  "config": {
+
+  }
+}

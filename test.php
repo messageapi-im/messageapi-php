@@ -12,7 +12,7 @@ error_reporting(E_ALL);
 require_once ('messageapi.php');
 $messageapi=new \messageapi\messageapi('<YOUR_APP_SECRET>');
 
-echo $messageapi->customers->GetAll();
+//echo $messageapi->customers->GetAll();
 //echo $messageapi->customers->Get('<ID_CUSTOMER>');
 //echo $messageapi->customers->Create('{"email":"david@bon.com"}');
 //echo $messageapi->customers->Update('<ID_CUSTOMER>','{"email":"david@bon.com"}');
@@ -32,5 +32,6 @@ echo $messageapi->customers->GetAll();
 
 //echo $messageapi->messages->GetNewMessages();
 //echo $messageapi->messages->SendMessage('{"webhook_url":"https://bb.com"}');
+echo $messageapi->media->DownloadMedia('12346');
 
 

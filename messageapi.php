@@ -14,6 +14,7 @@ class messageapi
     public $integrations;
     public $webhooks;
     public $messages;
+    public $media;
 
     public function __construct($authorization)
     {
@@ -23,9 +24,9 @@ class messageapi
         $this->integrations = new integrationsObj($authorization);
         $this->webhooks = new webhooksObj($authorization);
         $this->messages = new messagesObj($authorization);
+        $this->media = new mediaObj($authorization);
 
     }
-
 
 
 }
@@ -169,5 +170,16 @@ class messagesObj extends RunAPI
     {
         return RunAPI::exe('messages', 'POST', null, $data);
     }
+
+}
+
+class mediaObj extends RunAPI
+{
+    function DownloadMedia($messageid)
+    {
+        return  file_put_contents("itzik.png", RunAPI::exe('media', 'GET', $messageid, null));
+
+    }
+
 
 }
