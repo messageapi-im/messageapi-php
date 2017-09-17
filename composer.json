@@ -1,5 +1,5 @@
 {
-  "name": "messageapi_php",
+  "name": "messageapi/messageapi-php",
   "description": "Send and receive messages from any chat app, using one API",
   "version": "0.0.1",
   "type": "library",
